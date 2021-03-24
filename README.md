@@ -1,6 +1,6 @@
 # cameronheinlein.github.io
 <h1>Images Description</h1>
-<p>All background images were designed by me using using Procreate, or else screenshots of the code visuals.</p>
+<p>All background images were designed by me using using Procreate, including my logo, or else screenshots of the code visuals.</p>
 
 <h1>Layout</h1>
 <p>My goal was to make an easy to navigate, clean interface, using each page to display a specific requirement of the project.</p>
