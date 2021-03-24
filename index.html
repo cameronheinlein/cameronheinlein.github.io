@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Cameron Heinlein</title>
+
+        <!--Bootstrap -->
+        <link href="css/bootstrap.min.css"rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Arvo'rel='stylesheet'type='text/css'>
+    </head>
+    <body>
+        <!--Create Nav bar-->
+        <nav class="navbar navbar-expand-sm navbar-inverse">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                    <a class="navbar-brand" href="Untitled_Artwork.png"></a>
+                        <img src="Untitled_Artwork.png" class="logo"></a>
+                        <!-- <button type="button" class="navbar-toggle" data-target="navbarCollapse" data-toggle="collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button> -->
+                    </div>
+                     <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About.html">About Me</a></li>
+                            <li><a href="https://github.com/cameronheinlein" target="_blank">Github Profile</a></li>
+                            <li><a href="video.html"">Video</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--Create header-->
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1><span>Portfolio Highlights</span></h1>
+                </div>
+            </div>
+            <!--Create icons with text-->
+            <div class="icons">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="main">
+                            <img src="EyeScreenShot.png"class="bodyimage">
+                            <h2><span>
+                                <a href="https://github.com/cameronheinlein/EyeMovement" target="_blank">Eye Movement</a>
+                            </span></h2>
+                            <p><span>Eyes track mouse movement</span></p>
+                        </div>
+                        <div class="main">
+                            <img src="PacMen.png"class="bodyimage">
+                            <h2><span>
+                                <a href="https://github.com/cameronheinlein/PacMen" target="_blank">PacMen</a>
+                            </span></h2>
+                            <p><span>Create a factory of PacMen</span></p>
+                        </div>
+                        <div class="main">
+                            <img src="Bustracker.png"class="bodyimage">
+                            <h2><span>
+                                <a href="https://github.com/cameronheinlein/bus_tracker_animation" target="_blank">Bus Tracker</a>
+                            </span></h2>
+                            <p><span>Maps bus stops along a route</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Create contact button-->
+            <div class="more">
+                <div class="container-fluid">
+                    <a href="card-deck.html"class="btn">See more</a>
+                </div>
+            </div>
+            <!--Create Footer-->
+            <div class="footer">
+                <div class="container-fluid">
+                    <p>Developed by Cam</p>
+                    <a href="https://www.linkedin.com/in/cameronheinlein/">Linkedin</a>
+                </div>
+            </div>
+            <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!--Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+            formbutton("create", {action: "https://formspree.io/f/xyybrrap"})
+          </script>
+        <script src="js/bootstrap.min.js">
+    </script>
+
+</body>
+</html>
+
+<style>
+body {
+    font-family:Arvo, serif;
+    background-image: url("background.png");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+a {
+    color: black;
+}
+h1 span {
+    padding: 10px;
+    border-radius: 10px;
+}
+h2 span, p span {
+    
+    padding: 10px;
+    border-radius: 20px;
+}
+/*Style brand*/
+.logo {
+    height:80px;
+    background-color: #D2F898;
+}
+/*Style navigation bar*/
+.navbar-inverse {
+    background: #d2f89886;
+}
+.nav li {
+    display: inline-flex;
+    color: #000000;
+    font-size:17px;
+    margin-right:35px;
+    padding:10px 0;
+}
+.nav li:hover {
+    border-bottom:1px solid #2F2F2F;
+    padding-bottom:9px;
+    cursor:pointer;
+}
+/*Style jumbotron*/
+.jumbotron {
+    background-color:transparent;
+    color: #000000;
+    text-align:center;
+    margin:0;
+    padding:10px;
+    letter-spacing:2.5px;
+}
+
+/*limit the width of the icons section*/
+.container {
+    max-width:1000px;
+}
+/*Style icons section using bootstrap grid system*/
+.bodyimage{
+    background-color: transparent;
+    height:100px;
+    border-radius: 50px;
+}
+.main {
+    background-color: transparent;
+    text-align:center;
+    color:#000000;
+}
+.icons p{
+    font-size:15px;
+}
+/*Style contact button*/
+.more{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:100px;
+}
+.btn{
+    background-color: #2F2F2F;
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    font-size:18px;
+    padding:10px 70px;
+    letter-spacing:1.3px;
+}
+.btn:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    border:none;
+}
+/*Style footer*/
+.footer{
+    background-color:rgba(0, 0, 0, 0.356);
+    color:#2F2F2F;
+    font-size:15px;
+    padding:10px 0;
+    text-align: center;
+
+}
+/*use media queries to change icons size in small devices*/
+@media (max-width: 768px){
+    .bodyimage{
+        height:70px;
+    }
+}
+
+</style>
+
